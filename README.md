@@ -20,3 +20,8 @@ My setup files for installing Asahi Linux
 16. Select "y" on install zsh prompt
 17. Select "y" on nwg-look install
 18. Select "y" on copy Hyprland dotfiles
+
+# Python Configuration
+1. curl -LsSf https://astral.sh/uv/install.sh | sh
+2. export PATH="$HOME/.local/bin:$PATH"
+3. uv --version
