@@ -25,3 +25,10 @@ My setup files for installing Asahi Linux
 1. curl -LsSf https://astral.sh/uv/install.sh | sh
 2. export PATH="$HOME/.local/bin:$PATH"
 3. uv --version
+
+# Boot.dev setup
+1. curl -sS https://webi.sh/golang | sh
+2. echo 'export PATH=$PATH:$HOME/.local/opt/go/bin' >> ~/.bashrc
+3. source ~/.bashrc
+4. go install github.com/bootdotdev/bootdev@latest
+5. bootdev --version
