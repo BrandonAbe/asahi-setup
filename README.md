@@ -28,7 +28,8 @@ My setup files for installing Asahi Linux
 
 # Boot.dev setup
 1. curl -sS https://webi.sh/golang | sh
-2. echo 'export PATH=$PATH:$HOME/.local/opt/go/bin' >> ~/.bashrc
-3. source ~/.bashrc
-4. go install github.com/bootdotdev/bootdev@latest
-5. bootdev --version
+2. source ~/.config/envman/PATH.env
+3. echo 'export PATH=$PATH:$HOME/.local/opt/go/bin' >> ~/.bashrc
+4. source ~/.bashrc
+5. go install github.com/bootdotdev/bootdev@latest
+6. bootdev --version
